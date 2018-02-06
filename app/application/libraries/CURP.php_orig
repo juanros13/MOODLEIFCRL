@@ -1,0 +1,33 @@
+<?php
+
+	class CURP 
+	{
+		protected $urlWSDL = "http://172.16.20.42:8010/WsConsultaCURPSEP.svc?singleWsdl";
+		
+		public function __construct() { }
+		
+		public function getDataByCURP($curp)
+		{
+			try
+			{
+				
+				$clienteCURP = new SoapClient($this->urlWSDL);
+				$params = array
+				(
+					"datos"=>array
+					(
+						"cveCurp"=>$curp
+					)
+				);
+			 	$userData = $clienteCURP->consultarPorCurpO($params);		
+								
+				return $userData;
+			}
+			catch(Execption $e)
+			{
+				return null;
+			}
+		}
+	}
+
+?>

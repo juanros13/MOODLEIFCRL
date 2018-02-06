@@ -1,0 +1,86 @@
+.header {
+  padding: 20px 0;
+}
+.resaltar {
+  border: 1px solid;
+}
+.bg-company-blue {
+  background-color: #A8CF45;
+}
+
+footer {
+  background: #393B3C;
+  color: white;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+footer .text {
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+  padding: 30px 0;
+}
+footer .text h3 {
+  font-size: 14px;
+}
+.opciones {
+  background: #f5f5f5 !important;
+  padding: 30px 0;
+}
+.hbar {
+    background: url(../img/av_pat_5_1.png) left top repeat;
+    height: 15px;
+}
+.noticias {
+  background-color: #A8CF45;
+  color: white;
+  padding: 20px 0;
+  border: 1px solid;
+}
+.noticias span {
+  color: #666;
+}
+.noticias-border-left {
+  border-left: 1px solid white;
+}
+.principal {
+  min-height: 600px;
+}
+.soporte {
+  padding: 30px 0;
+}
+.img-padding20 {
+  padding: 20px;
+}
+.card-header {
+  background: #A8CF45;
+}
+.card-header a{
+  color: white;
+}
+.login {
+  background: url(../img/ima2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 1px solid;
+  padding: 80px 0;
+  min-height: 550px;
+}
+.form-container {
+  background: #363636;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  padding: 20px;
+}
+.form-container  {
+   color: white;
+}
+
+.form-container hr{
+  color: white;
+  background-color: white;
+}
